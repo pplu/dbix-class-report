@@ -5,7 +5,7 @@ use Carp;
 use Digest::MD5 qw/md5_hex/;
 use namespace::autoclean;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 has 'columns' => (
     is       => 'ro',
