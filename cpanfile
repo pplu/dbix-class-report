@@ -10,12 +10,9 @@ on 'test' => sub {
 };
 
 on 'develop' => sub {
-  requires 'Template';
-  requires 'Pod::HTML2Pod';
   requires 'Dist::Zilla';
   requires 'Dist::Zilla::Plugin::Prereqs::FromCPANfile';
   requires 'Dist::Zilla::Plugin::VersionFromModule';
   requires 'Dist::Zilla::PluginBundle::Git';
-  requires 'Software::License::artistic2';
 };
 
